@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.num1{
+    padding-top: 110px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+.con1{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 104, 190);
+    margin: 30px;   
+    animation: anim1  2s infinite alternate;
+
+}
+
+@keyframes anim1{
+    0%{
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+
+/* #####################---second box----################################ */
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(153, 134, 155);
+    animation: anim2 2s infinite alternate;
+    margin: 30px;
+}
+
+.num2{
+    padding-top: 110px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+@keyframes anim2{
+    0%{
+        transform: skewY(-30deg);
+    }
+
+    100%{
+        transform: skewY(30deg);
+    }
+}
+
+
+/* ##############--------Third box-------############## */
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(119, 140, 171);
+    margin: 30px;
+    animation: anim3 2s infinite normal;
+}
+
+.num3{
+    padding-top: 110px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+@keyframes anim3{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ##############--------Fourth box-------############## */
+
+.num4{
+    padding-top: 110px;
+    padding-right:20px;
+    font-weight: bolder;
+}
+
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(119, 140, 171);
+    animation: anim4 2s infinite alternate;
+    margin:30px ;
+}
+
+@keyframes anim4{
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0.5);
+    }
+}
+
+/* ##############--------Fifth box-------############## */
+
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    animation: anim5 2s infinite alternate;
+    margin: 30px;
+}
+
+@keyframes anim5{
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0.5);
+    }
+}
+
+/* ##############--------Sixth box-------############## */
+
+.box6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(63, 146, 63);
+    margin: 30px;
+    animation: anim6 2s infinite alternate;
+}
+
+@keyframes anim6 {
+    0%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(60deg);
+    }
+    
+}
+
+.anchor{
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+

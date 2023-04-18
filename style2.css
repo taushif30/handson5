@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 222, 73);
+}
+
+h1{
+    text-align: center;
+}
+
+.con1{
+   position: relative;
+   left: 45%;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(113, 189, 83);
+    margin: 10px;
+    transition: all 3s;
+}
+
+.box1:hover{
+    width: 300px;
+}
+
+/* ##########-----Box 2------############## */
+
+
+.box2:hover{
+    height: 350px;
+    width: 350px;
+}
+
+/* ##########-------Box 3----------########## */
+
+.box3:hover{
+    width: 300px;
+}
+
+/* ############----Box 4------############ */
+
+.box4:hover{
+    width: 300px;
+}
+
+/* ############----Box 5------############ */
+
+.box5:hover{
+    width: 300px;
+}
+
+/* ############----Box 6------############ */
+
+.box6:hover{
+    width: 300px;
+}
+
+/* ############----Box 7------############ */
+
+.box7:hover{
+    width: 300px;
+}
+
+
+a{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+a:link{
+    color: rgb(0, 255, 123);
+}
